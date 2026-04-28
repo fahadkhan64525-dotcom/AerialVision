@@ -187,7 +187,7 @@ st.markdown("""
 # ─── Co
 CLASSES      = ["bird", "drone"]
 IMG_SIZE     = (224, 224)
-MODELS_DIR   = str(ROOT / "models")
+MODELS_DIR   = str(ROOT / "custom_cnn_best.keras")
 HISTORY_DIR  = str(ROOT / "models")
 YOLO_WEIGHTS_PATH = "yolov8n.pt"
 
